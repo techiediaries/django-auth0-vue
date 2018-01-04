@@ -1,0 +1,15 @@
+{% load render_bundle from webpack_loader %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django - Auth0 - Vue</title>
+    
+</head>
+<body>
+<div id="app">
+</div>
+<script src="https://cdn.auth0.com/js/auth0/9.0.1/auth0.min.js"></script>
+{% render_bundle 'app' %}
+</body>
+</html>
