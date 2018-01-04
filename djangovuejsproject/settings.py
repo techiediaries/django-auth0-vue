@@ -176,7 +176,7 @@ if AUTH0_DOMAIN:
 #    return payload.get('sub').replace('|', '.')
 
 def jwt_get_username_from_payload_handler(payload):
-    return 'ahmed'
+    return 'auth0user'
 
 
 JWT_AUTH = {

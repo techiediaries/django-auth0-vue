@@ -129,8 +129,8 @@ export default {
       this.loading = true;  
       apiService.getProductsByURL(this.previousPageURL).then((page) => {
         this.products = page.data;
-        this.nextPage = page.nextlink;
-        this.previousPage = page.prevlink;
+        this.nextPageURL = page.nextlink;
+        this.previousPageURL = page.prevlink;
         this.loading = false;
       });      
             

@@ -21,7 +21,7 @@ def product_list(request):
         previousPage = 1
         products = Product.objects.all()
         page = request.GET.get('page', 1)
-        paginator = Paginator(products, 2)
+        paginator = Paginator(products, 10)
         try:
             data = paginator.page(page)
         except PageNotAnInteger:
