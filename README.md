@@ -63,7 +63,6 @@ You can now navigate with your web browser to http://localhost:8000 and start pl
 
 
 ### Home Page
-![](https://screenshots.firefoxusercontent.com/images/3fb6e1fe-b97d-4bdb-a887-e51b58e5f805.png)
 
 ### Product List Page (List and Delete)
 
