@@ -2,6 +2,10 @@
 
 This is an example CRUD (Create-Read-Update-Delete) application which demonstrates how to create a modern web application with a Django backend (Django REST Framework API), a Vue.js front-end and Bootstrap 4 for styling. The REST API is secured with JWT using Auth0. 
 
+For separate apps buil for part 1 (master branch) and part 2 (part2 branch) of the tutorial series, make sure to check this [repo](https://github.com/techiediaries/djangovue/) instead
+
+To learn how to build this demo app you can follow these [tutorial series](https://www.techiediaries.com/django-vuejs-auth0)
+
 By following this simple example and the accompanying tutorial(s) you'll learn: 
 
 * How to build a simple API using Django REST Framework
